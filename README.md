@@ -1,2 +1,2 @@
 # wpentrepreneur
-A free wordpress theme
+This is a 100% free wordpress theme. I created the theme to learn how wordpress theming works. 
