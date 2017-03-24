@@ -1,0 +1,179 @@
+/*
+Theme Name: Entrepreneur WP Theme
+Theme URI: https://www.oloyedejamiu.com/wpentrepreneur-bootstrap-wordpress-theme/
+Author: Oloyede Jamiu
+Description: Wordpress theme for minimalistic entrepreneurs
+Version: 0.0.1
+Tags: bootstrap, entreprneur, business, internet, startups
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.posts-not-found {
+    border: 2px solid red;
+    padding: 20px;
+    /*position: relative;*/
+    left: 65px;
+    right: 65px;
+}
+.layerit {
+    width: 100%;
+    height: 100%;
+  
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .3);
+    padding-top: 150px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    transition: background-color .9s ease;
+    border: 1px solid white; 
+
+}
+
+.navbar a {
+    padding-top: 30px;
+
+}
+
+.navbar-brand {
+    font-size: 25px;
+} 
+
+.home-title {
+    color: white;  
+}
+
+#title-text {
+width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  padding: 0 30px;
+
+}
+
+.home-author {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.no-margin {
+    padding: 0; 
+    margin: 0;
+}
+/*
+ * Globals
+ */
+.white-color {
+  color: white;
+}
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.42857143;
+ 
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.bolded-font { 
+font-weight: bold;
+font-size: 4em;
+ }
+/* Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+
+
+/*
+ * Blog name and description
+ */
+
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.move-meta-title {
+  position: relative;
+  top: -283px;
+  left: 0;
+   
+    right: 0;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+
+.single-content-section {
+  margin-top: -190px;
+}
+
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 10px;
+  text-align: right;
+
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+.before-footer-area {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color:  #191C1F;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
